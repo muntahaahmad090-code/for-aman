@@ -85,7 +85,7 @@
 
     <h1 id="mainText">Aman, will you be my Valentine?</h1>
 
-    <img id="mainImage" src="muntaha.staring.jpg">
+    <img id="mainImage" src="muntaha.staring.JPG" alt="Please say yes">
 
     <div class="buttons" id="btnContainer">
         <button id="yesBtn" onclick="nextStage()">YES</button>
@@ -103,8 +103,7 @@
                 // Move to Stage 2
                 stage = 2;
                 
-                // *** THIS WAS THE FIX ***
-                // We added the dot between aman and questioning
+                // We kept the dot here from your previous fix
                 document.getElementById('mainImage').src = "aman.questioning.jpg";
                 
                 document.getElementById('mainText').innerText = "Are you sure?";
