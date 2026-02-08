@@ -102,7 +102,11 @@
 
                 // Move to Stage 2
                 stage = 2;
-                document.getElementById('mainImage').src = "amanquestioning.jpg";
+                
+                // *** THIS WAS THE FIX ***
+                // We added the dot between aman and questioning
+                document.getElementById('mainImage').src = "aman.questioning.jpg";
+                
                 document.getElementById('mainText').innerText = "Are you sure?";
                 
                 // Reset the No button to the center so he tries to click it again
